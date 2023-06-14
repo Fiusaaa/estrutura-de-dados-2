@@ -61,11 +61,11 @@ int main() {
 	int opcao = 0;   
 	int total = 0;
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~PAO  
-    struct TreeNode* sandwich = createNode("Pão");
+    struct TreeNode* sandwich = createNode("Pao");
    
    do {
 	    int scan = 0;
-	        printf("\nSelecione seu pão:\n");
+	        printf("\nSelecione seu pao:\n");
             printf("1. Pao de Ervas finas...R$3,00\n");
             printf("2. Pao Brioche..........R$1,00\n");
             printf("3. Pao Integral.........R$2,00\n");
@@ -387,7 +387,7 @@ int main() {
 	    int scan = 0;
 	        printf("\nSelecione seu queijo:\n");
             printf("1. Queijo Prato.........R$2,00\n");
-            printf("2. Quijo Suíço..........R$2,00\n");
+            printf("2. Quijo Suiço..........R$2,00\n");
             printf("3. Queijo Mozzarella....R$2,00\n");
             printf("4. Queijo Sem Lactose...R$2,00\n");
             printf("\nDigite a opcao desejada: ");
