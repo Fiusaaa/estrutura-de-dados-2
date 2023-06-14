@@ -325,7 +325,7 @@ int main() {
                 }
                 if(qtd == 2){
                    addChild(meats, "Lombo Suino"); 
-                   addChild(meats, "Lombo Suíno"); 
+                   addChild(meats, "Lombo Suino"); 
                    total = total + 10;
                 }
                 if(qtd == 3){
@@ -460,7 +460,7 @@ int main() {
                 }
                 if(qtd2 == 2){
                    addChild(cheese, "Quijo Suiço");
-                   addChild(cheese, "Quijo Suíço"); 
+                   addChild(cheese, "Quijo Suiço"); 
                 }
                 if(qtd2 == 3){
                    addChild(cheese, "Quijo Suiço");  
