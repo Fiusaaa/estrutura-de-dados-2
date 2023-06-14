@@ -438,7 +438,7 @@ int main() {
                 break;  
             //-----------------------------------------------------
             
-            case 2://Quijo Suíço
+            case 2://Queijo Suiço
                 printf("\nQuantas unidades de queijo voce deseja?: ");
                 do{
                     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ função para impedir que usuario digite letra e trave o programa
