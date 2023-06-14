@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+// Definição da estrutura de um nó da árvore
+struct TreeNode {
+    char ingredient[50];
+    struct TreeNode* sibling;   // próximo irmão
+    struct TreeNode* child;     // primeiro filho
+};
+
+// Função para criar um novo nó na árvore
+struct TreeNode* createNode(char ingredient[]) {
+    struct TreeNode* newNode = (struct TreeNode*)malloc(sizeof(struct TreeNode));
+    strcpy(newNode->ingredient, ingredient);
+    newNode->sibling = NULL;
+    newNode->child = NULL;
+    return newNode;
+}
+
+// Função para adicionar um irmão a um nó
+void addSibling(struct TreeNode* siblingNode, char ingredient[]) {
+    while (siblingNode->sibling != NULL) {
+        siblingNode = siblingNode->sibling;
+    }
+    siblingNode->sibling = createNode(ingredient);
+}
+
+// Função para adicionar um filho a um nó
+void addChild(struct TreeNode* parentNode, char ingredient[]) {
+    if (parentNode->child == NULL) {
+        parentNode->child = createNode(ingredient);
+    } else {
+        addSibling(parentNode->child, ingredient);
+    }
+}
+
+// Função auxiliar para exibir os ingredientes do sanduíche usando uma travessia em pré-ordem da árvore
+void display(struct TreeNode* node, int level) {
+    if (node == NULL) {
+        return;
+    }
+    
+    for (int i = 0; i < level; i++) {
+        printf("\t");
+    }
+    
+    printf("- %s\n", node->ingredient);
+    
+    display(node->child, level + 1);
+    display(node->sibling, level);
+}
+
+// Função para exibir os ingredientes do sanduíche usando uma indentação para representar a árvore
+void displayIngredients(struct TreeNode* node) {
+    display(node, 0);
+}
