@@ -66,10 +66,10 @@ int main() {
    do {
 	    int scan = 0;
 	        printf("\nSelecione seu pão:\n");
-            printf("1. Pão de Ervas finas...R$3,00\n");
-            printf("2. Pão Brioche..........R$1,00\n");
-            printf("3. Pão Integral.........R$2,00\n");
-            printf("4. Pão de 3 queijos.....R$3,00\n");
+            printf("1. Pao de Ervas finas...R$3,00\n");
+            printf("2. Pao Brioche..........R$1,00\n");
+            printf("3. Pao Integral.........R$2,00\n");
+            printf("4. Pao de 3 queijos.....R$3,00\n");
             printf("5. Pao sem glutem.......R$2,00\n");
             printf("\nDigite a opcao desejada: ");
         //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ função para impedir que usuario digite letra e trave o programa
@@ -141,7 +141,7 @@ int main() {
             printf("2. Picanha Burger.......R$7,00\n");
             printf("3. Costela Burger.......R$6,00\n");
             printf("4. Peito de Frango......R$5,00\n");
-            printf("5. Lombo Suíno..........R$5,00\n");
+            printf("5. Lombo Suino..........R$5,00\n");
             printf("6. Vegano...............R$6,00\n");
             printf("\nDigite a opcao desejada: ");
         //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ função para impedir que usuario digite letra e trave o programa
@@ -208,7 +208,7 @@ int main() {
                     } while (gc != '\n');
                     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                     if(qtd < 1 || qtd > 3) {
-                        printf("Valor inválido. Favor inserir um numero de 1 a 3: ");
+                        printf("Valor invalido. Favor inserir um numero de 1 a 3: ");
                     }
                 } while(qtd < 1 || qtd > 3);
                 if(qtd == 1){
@@ -244,7 +244,7 @@ int main() {
                     } while (gc != '\n');
                     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                     if(qtd < 1 || qtd > 3) {
-                        printf("Valor inválido. Favor inserir um numero de 1 a 3: ");
+                        printf("Valor invalido. Favor inserir um numero de 1 a 3: ");
                     }
                 } while(qtd < 1 || qtd > 3);
                 if(qtd == 1){
@@ -280,7 +280,7 @@ int main() {
                     } while (gc != '\n');
                     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                     if(qtd < 1 || qtd > 3) {
-                        printf("Valor inválido. Favor inserir um numero de 1 a 3: ");
+                        printf("Valor invalido. Favor inserir um numero de 1 a 3: ");
                     }
                 } while(qtd < 1 || qtd > 3);
                 if(qtd == 1){
@@ -316,22 +316,22 @@ int main() {
                     } while (gc != '\n');
                     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                     if(qtd < 1 || qtd > 3) {
-                        printf("Valor inválido. Favor inserir um numero de 1 a 3: ");
+                        printf("Valor invalido. Favor inserir um numero de 1 a 3: ");
                     }
                 } while(qtd < 1 || qtd > 3);
                 if(qtd == 1){
-                   addChild(meats, "Lombo Suíno"); 
+                   addChild(meats, "Lombo Suino"); 
                    total = total + 5;
                 }
                 if(qtd == 2){
-                   addChild(meats, "Lombo Suíno"); 
+                   addChild(meats, "Lombo Suino"); 
                    addChild(meats, "Lombo Suíno"); 
                    total = total + 10;
                 }
                 if(qtd == 3){
-                   addChild(meats, "Lombo Suíno"); 
-                   addChild(meats, "Lombo Suíno"); 
-                   addChild(meats, "Lombo Suíno"); 
+                   addChild(meats, "Lombo Suino"); 
+                   addChild(meats, "Lombo Suino"); 
+                   addChild(meats, "Lombo Suino"); 
                    total = total + 15;
                 }
                 opcao = 4;
@@ -352,7 +352,7 @@ int main() {
                     } while (gc != '\n');
                     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                     if(qtd < 1 || qtd > 3) {
-                        printf("Valor inválido. Favor inserir um numero de 1 a 3: ");
+                        printf("Valor invalido. Favor inserir um numero de 1 a 3: ");
                     }
                 } while(qtd < 1 || qtd > 3);
                 if(qtd == 1){
@@ -452,20 +452,20 @@ int main() {
                     } while (gc != '\n');
                     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                     if(qtd2 < 1 || qtd2 > 3) {
-                        printf("Valor inválido. Favor inserir um numero de 1 a 3: ");
+                        printf("Valor invalido. Favor inserir um numero de 1 a 3: ");
                     }
                 } while(qtd2 < 1 || qtd2 > 3);
                 if(qtd2 == 1){
-                   addChild(cheese, "Quijo Suíço"); 
+                   addChild(cheese, "Quijo Suiço"); 
                 }
                 if(qtd2 == 2){
-                   addChild(cheese, "Quijo Suíço");
+                   addChild(cheese, "Quijo Suiço");
                    addChild(cheese, "Quijo Suíço"); 
                 }
                 if(qtd2 == 3){
-                   addChild(cheese, "Quijo Suíço");  
-                   addChild(cheese, "Quijo Suíço");  
-                   addChild(cheese, "Quijo Suíço"); 
+                   addChild(cheese, "Quijo Suiço");  
+                   addChild(cheese, "Quijo Suiço");  
+                   addChild(cheese, "Quijo Suiço"); 
                 }
                 opcao = 4;
                 break;  
@@ -485,7 +485,7 @@ int main() {
                     } while (gc != '\n');
                     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                     if(qtd2 < 1 || qtd2 > 3) {
-                        printf("Valor inválido. Favor inserir um numero de 1 a 3: ");
+                        printf("Valor invalido. Favor inserir um numero de 1 a 3: ");
                     }
                 } while(qtd2 < 1 || qtd2 > 3);
                 if(qtd2 == 1){
@@ -518,7 +518,7 @@ int main() {
                     } while (gc != '\n');
                     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                     if(qtd2 < 1 || qtd2 > 3) {
-                        printf("Valor inválido. Favor inserir um numero de 1 a 3: ");
+                        printf("Valor invalido. Favor inserir um numero de 1 a 3: ");
                     }
                 } while(qtd2 < 1 || qtd2 > 3);
                 if(qtd2 == 1){
@@ -552,9 +552,9 @@ int main() {
 	    int scan = 0;
 	        printf("\nSelecione seu pacote de extras:\n");
             printf("1. Italiano.............R$6,00\n");
-            printf("           -Tomate, Ketchup, Alface, Manjericao e Orégano.\n\n");
+            printf("           -Tomate, Ketchup, Alface, Manjericao e Oregano.\n\n");
             printf("2. Mexicano.............R$7,00\n");
-            printf("           -Queijo Nacho, Pimenta Jalapeño e Guacamole.\n\n");
+            printf("           -Queijo Nacho, Pimenta Jalapeno e Guacamole.\n\n");
             printf("3. Americano............R$8,00\n");
             printf("           -Onion rings, Molho Barbecue, Bacon e Alface.\n\n");
             printf("4. Frances..............R$6,00\n");
@@ -583,7 +583,7 @@ int main() {
                 addChild(extra, "Ketchup");
                 addChild(extra, "Alface");
                 addChild(extra, "Manjericao");
-                addChild(extra, "Orégano");
+                addChild(extra, "Oregano");
                 total = total + 6;
                 opcao = 4;
                 break;  
@@ -591,7 +591,7 @@ int main() {
             
             case 2://Mexicano
                 addChild(extra, "Queijo Nacho");
-                addChild(extra, "Pimenta Jalapeño");
+                addChild(extra, "Pimenta Jalapeno");
                 addChild(extra, "Guacamole");
                 total = total + 7;
                 opcao = 4;
@@ -645,7 +645,7 @@ int main() {
         }   
 	} while (opcao != 4);
     printf("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-    printf("\n O sanduíche que você montou ficou assim:\n\n");
+    printf("\n O sanduiche que você montou ficou assim:\n\n");
     // Exibir os ingredientes do sanduíche
     displayIngredients(sandwich);
     displayIngredients(meats);
