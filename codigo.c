@@ -387,7 +387,7 @@ int main() {
 	    int scan = 0;
 	        printf("\nSelecione seu queijo:\n");
             printf("1. Queijo Prato.........R$2,00\n");
-            printf("2. Queijo Suiço..........R$2,00\n");
+            printf("2. Queijo Suico..........R$2,00\n");
             printf("3. Queijo Mozzarella....R$2,00\n");
             printf("4. Queijo Sem Lactose...R$2,00\n");
             printf("\nDigite a opcao desejada: ");
@@ -456,16 +456,16 @@ int main() {
                     }
                 } while(qtd2 < 1 || qtd2 > 3);
                 if(qtd2 == 1){
-                   addChild(cheese, "Queijo Suiço"); 
+                   addChild(cheese, "Queijo Suico"); 
                 }
                 if(qtd2 == 2){
-                   addChild(cheese, "Queijo Suiço");
-                   addChild(cheese, "Queijo Suiço"); 
+                   addChild(cheese, "Queijo Suico");
+                   addChild(cheese, "Queijo Suico"); 
                 }
                 if(qtd2 == 3){
-                   addChild(cheese, "Queijo Suiço");  
-                   addChild(cheese, "Queijo Suiço");  
-                   addChild(cheese, "Queijo Suiço"); 
+                   addChild(cheese, "Queijo Suico");  
+                   addChild(cheese, "Queijo Suico");  
+                   addChild(cheese, "Queijo Suico"); 
                 }
                 opcao = 4;
                 break;  
