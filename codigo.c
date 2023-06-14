@@ -645,7 +645,7 @@ int main() {
         }   
 	} while (opcao != 4);
     printf("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
-    printf("\n O sanduiche que você montou ficou assim:\n\n");
+    printf("\n O sanduiche que voce montou ficou assim:\n\n");
     // Exibir os ingredientes do sanduíche
     displayIngredients(sandwich);
     displayIngredients(meats);
